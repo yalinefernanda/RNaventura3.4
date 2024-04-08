@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent"
+        tools:context=".CardPraia2">
+
+    <View
+            android:layout_width="430dp"
+            android:layout_height="70dp"
+            android:background="@drawable/gradient"
+            android:id="@+id/view3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <View
+            android:layout_width="433dp"
+            android:layout_height="87dp"
+            android:background="@drawable/gradient"
+            android:id="@+id/view4"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+            android:id="@+id/textView"
+            android:text="AventuraRN"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintVertical_bias="0.023"/>
+
+    <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="56dp"
+            android:layout_height="42dp"
+            app:srcCompat="@drawable/info"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.782"/>
+
+    <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="53dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/baseline_settings_24"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.27"/>
+
+    <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="64dp"
+            android:layout_height="58dp"
+            app:srcCompat="@drawable/baseline_directions_bus_filled_24"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"/>
+
+    <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="49dp"
+            android:layout_height="42dp"
+            app:srcCompat="@drawable/leave"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.955"/>
+
+    <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="59dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/baseline_person_24"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"/>
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="846dp"
+            android:layout_height="286dp"
+            app:srcCompat="@drawable/prai"
+            android:layout_marginTop="84dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.006" app:layout_constraintHorizontal_bias="0.507"/>
+    <ScrollView
+            android:layout_width="422dp"
+            android:layout_height="259dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/goToWebsiteButton" app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+                android:id="@+id/imageDescriptionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/s_o_miguel_pode_se_referir_a_diversas_localidades_mas_presumo_que_voc_esteja_se_referindo_a_s_o_miguel_do_gostoso_uma_cidade_litor_nea_no_rio_grande_do_norte_brasil_conhecida_por_suas_belas_praias_e_atmosfera_tranquila_s_o_miguel_do_gostoso_uma_pequena_cidade_costeira_que_atrai_turistas_em_busca_de_praias_paradis_acas_e_ventos_ideais_para_a_pr_tica_de_esportes_n_uticos_como_kitesurf_e_windsurf_suas_praias_s_o_conhecidas_por_suas_guas_cristalinas_e_extensas_faixas_de_areia_branca_proporcionando_um_ambiente_relaxante_e_natural_al_m_das_praias_s_o_miguel_do_gostoso_oferece_uma_variedade_de_restaurantes_bares_e_pousadas_charmosas_muitas_delas_beira_mar_onde_os_visitantes_podem_desfrutar_da_culin_ria_local_e_da_hospitalidade_dos_moradores_a_cidade_tamb_m_preserva_um_ambiente_tranquilo_e_descontra_do_com_ruas_estreitas_e_casinhas_coloridas_que_convidam_os_visitantes_a_explorar_suas_belezas_naturais_e_culturais_se_voc_estiver_se_referindo_a_outro_s_o_miguel_por_favor_forne_a_mais_detalhes_para_que_eu_possa_oferecer_informa_es_mais_precisas"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:padding="16dp"/>
+
+    </ScrollView>
+    <Button
+            android:id="@+id/goToWebsiteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir para o site"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"
+            tools:ignore="MissingConstraints" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.874"/>
+    <ImageView
+            android:layout_width="76dp"
+            android:layout_height="52dp" app:srcCompat="@drawable/barco" android:id="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.095"
+            app:layout_constraintVertical_bias="0.023"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

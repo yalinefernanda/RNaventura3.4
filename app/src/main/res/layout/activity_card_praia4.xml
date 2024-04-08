@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent"
+        tools:context=".CardPraia2">
+
+    <View
+            android:layout_width="430dp"
+            android:layout_height="70dp"
+            android:background="@drawable/gradient"
+            android:id="@+id/view3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <View
+            android:layout_width="433dp"
+            android:layout_height="87dp"
+            android:background="@drawable/gradient"
+            android:id="@+id/view4"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+            android:id="@+id/textView"
+            android:text="AventuraRN"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintVertical_bias="0.023"/>
+
+    <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="56dp"
+            android:layout_height="42dp"
+            app:srcCompat="@drawable/info"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.782"/>
+
+    <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="53dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/baseline_settings_24"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.27"/>
+
+    <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="64dp"
+            android:layout_height="58dp"
+            app:srcCompat="@drawable/baseline_directions_bus_filled_24"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"/>
+
+    <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="49dp"
+            android:layout_height="42dp"
+            app:srcCompat="@drawable/leave"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.955"/>
+
+    <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="59dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/baseline_person_24"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"/>
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="948dp"
+            android:layout_height="319dp"
+            app:srcCompat="@drawable/pontanegra"
+            android:layout_marginTop="84dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.006" app:layout_constraintHorizontal_bias="0.507"/>
+    <ScrollView
+            android:layout_width="422dp"
+            android:layout_height="259dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/goToWebsiteButton" app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+                android:id="@+id/imageDescriptionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_praia_de_ponta_negra_uma_das_mais_famosas_e_movimentadas_praias_da_cidade_de_natal_capital_do_estado_do_rio_grande_do_norte_no_brasil_situada_em_uma_enseada_protegida_por_altas_dunas_e_fal_sias_ponta_negra_conhecida_por_suas_guas_mornas_e_calmas_areias_douradas_e_pela_imponente_presen_a_do_morro_do_careca_uma_duna_de_mais_de_100_metros_de_altura_que_se_destaca_na_paisagem_essa_praia_um_destino_popular_tanto_para_turistas_quanto_para_moradores_locais_oferecendo_uma_ampla_variedade_de_atividades_e_atra_es_durante_o_dia_os_visitantes_podem_desfrutar_de_banhos_de_sol_nadar_nas_guas_tranquilas_praticar_esportes_como_o_frescobol_futebol_de_areia_e_v_lei_ou_ainda_fazer_passeios_de_caiaque_ou_stand_up_paddle_a_vista_do_morro_do_careca_ao_entardecer_especialmente_impressionante_tornando_se_um_local_popular_para_fotografias_e_contempla_o_noite_a_orla_de_ponta_negra_ganha_vida_com_uma_animada_cena_de_bares_restaurantes_lojas_de_artesanato_e_feiras_de_souvenirs_a_gastronomia_local_um_dos_destaques_oferecendo_uma_variedade_de_pratos_t_picos_da_regi_o_como_frutos_do_mar_frescos_e_a_tradicional_culin_ria_nordestina_al_m_das_atra_es_beira_mar_ponta_negra_tamb_m_est_pr_xima_a_outras_atra_es_tur_sticas_como_o_parque_das_dunas_o_centro_de_artesanato_potiguar_e_o_famoso_forte_dos_reis_magos_que_oferecem_oportunidades_adicionais_para_explorar_a_rica_cultura_e_hist_ria_da_regi_o_em_resumo_ponta_negra_um_destino_tur_stico_completo_que_combina_belezas_naturais_deslumbrantes_uma_atmosfera_animada_e_uma_variedade_de_atividades_para_todos_os_gostos_tornando_se_um_lugar_imperd_vel_para_quem_visita_natal_e_deseja_vivenciar_o_melhor_que_o_litoral_do_rio_grande_do_norte_tem_a_oferecer"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:padding="16dp"/>
+
+    </ScrollView>
+    <Button
+            android:id="@+id/goToWebsiteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir para o site"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"
+            tools:ignore="MissingConstraints" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.874"/>
+    <ImageView
+            android:layout_width="76dp"
+            android:layout_height="52dp" app:srcCompat="@drawable/barco" android:id="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.095"
+            app:layout_constraintVertical_bias="0.023"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

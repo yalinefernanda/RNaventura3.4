@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent"
+        tools:context=".CardPraia2">
+
+    <View
+            android:layout_width="430dp"
+            android:layout_height="70dp"
+            android:background="@drawable/gradient"
+            android:id="@+id/view3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <View
+            android:layout_width="433dp"
+            android:layout_height="87dp"
+            android:background="@drawable/gradient"
+            android:id="@+id/view4"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+            android:id="@+id/textView"
+            android:text="AventuraRN"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintVertical_bias="0.023"/>
+
+    <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="56dp"
+            android:layout_height="42dp"
+            app:srcCompat="@drawable/info"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.782"/>
+
+    <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="53dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/baseline_settings_24"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.27"/>
+
+    <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="64dp"
+            android:layout_height="58dp"
+            app:srcCompat="@drawable/baseline_directions_bus_filled_24"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"/>
+
+    <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="49dp"
+            android:layout_height="42dp"
+            app:srcCompat="@drawable/leave"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.955"/>
+
+    <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="59dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/baseline_person_24"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"/>
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="885dp"
+            android:layout_height="293dp"
+            app:srcCompat="@drawable/maracajau"
+            android:layout_marginTop="84dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.006" app:layout_constraintHorizontal_bias="0.507"/>
+    <ScrollView
+            android:layout_width="422dp"
+            android:layout_height="259dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/goToWebsiteButton" app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+                android:id="@+id/imageDescriptionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_praia_de_maracaja_um_tesouro_natural_localizado_no_litoral_norte_do_estado_do_rio_grande_do_norte_no_brasil_conhecida_por_suas_guas_cristalinas_e_recifes_de_corais_exuberantes_essa_praia_um_para_so_para_os_amantes_do_mergulho_e_do_snorkeling_as_guas_tranquilas_e_rasas_de_maracaja_abrigam_um_dos_maiores_bancos_de_corais_do_brasil_conhecido_como_parrachos_de_maracaja_esses_recifes_oferecem_uma_rica_biodiversidade_marinha_com_uma_variedade_impressionante_de_peixes_coloridos_corais_vibrantes_e_outras_criaturas_marinhas_fascinantes_os_visitantes_t_m_a_oportunidade_de_explorar_esse_mundo_subaqu_tico_deslumbrante_atrav_s_de_passeios_de_barco_com_fundo_de_vidro_ou_mergulho_com_cilindro_proporcionando_uma_experi_ncia_inesquec_vel_de_contato_direto_com_a_vida_marinha_al_m_das_atividades_aqu_ticas_a_praia_de_maracaja_oferece_uma_paisagem_deslumbrante_com_areias_douradas_e_coqueirais_que_se_estendem_ao_longo_da_costa_um_local_perfeito_para_relaxar_sob_o_sol_fazer_caminhadas_beira_mar_ou_simplesmente_apreciar_a_beleza_natural_ao_redor_a_infraestrutura_tur_stica_em_maracaja_bem_desenvolvida_com_diversas_op_es_de_hospedagem_restaurantes_e_servi_os_de_turismo_garantindo_uma_estadia_confort_vel_e_agrad_vel_para_os_visitantes_em_resumo_a_praia_de_maracaja_um_destino_imperd_vel_para_aqueles_que_buscam_uma_experi_ncia_nica_de_mergulho_combinada_com_a_beleza_intocada_da_natureza_proporcionando_momentos_de_relaxamento_e_aventura_em_um_dos_lugares_mais_encantadores_do_litoral_do_rio_grande_do_norte"
+                android:gravity="center_horizontal"
+                android:padding="16dp"/>
+
+    </ScrollView>
+    <Button
+            android:id="@+id/goToWebsiteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir para o site"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"
+            tools:ignore="MissingConstraints" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.874"/>
+    <ImageView
+            android:layout_width="76dp"
+            android:layout_height="52dp" app:srcCompat="@drawable/barco" android:id="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.095"
+            app:layout_constraintVertical_bias="0.023"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

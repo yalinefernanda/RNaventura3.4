@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".teste">
+
+
+    <ScrollView
+            android:layout_width="406dp"
+            android:layout_height="778dp"
+            android:background="@android:color/white"
+            tools:context=".TelaPrincipal"
+            tools:layout_editor_absoluteY="87dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            tools:ignore="MissingConstraints">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    android:layout_marginHorizontal="16dp">
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical" android:background="@color/white">
+                    <ImageView android:layout_width="match_parent" android:layout_height="160dp"
+                               android:src="@drawable/prai"
+                               android:scaleType="centerCrop"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:layout_marginTop="12dp"
+                              android:layout_marginStart="16dp"
+                              android:text="@string/praia_do_cristo_miguel"
+                              android:textColor="#282828"
+                              android:textSize="20sp"/>
+                    <TextView android:layout_width="352dp" android:layout_height="wrap_content"
+                              android:layout_marginTop="4dp"
+                              android:layout_marginStart="16dp"
+                              android:text="@string/a_praia_do_cristo_miguel_localizada_em_alagoas_brasil_conhecida_por_sua_est_tua_imponente_do_cristo_oferecendo_uma_vista_panor_mica_da_costa_com_areias_douradas_e_guas_calmas_perfeita_para_atividades_de_praia_e_mergulho_a_atmosfera_relaxante_e_a_culin_ria_local_completam_a_experi_ncia_tornando_a_um_destino_tur_stico_popular_para_relaxamento_e_imers_o_na_cultura_regional"
+                              android:textColor="#777777"
+                              android:justificationMode="inter_word"
+                              android:textSize="14sp"/>
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                  android:orientation="horizontal" android:layout_marginTop="8dp"
+                                  android:layout_marginHorizontal="16dp"
+                                  android:layout_marginBottom="12dp">
+
+                        <Button android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mais informações"
+                                android:onClick="Praia1"
+                                android:id="@+id/btn1"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textColor="@color/white"
+                                android:backgroundTint="@color/orange"
+                                android:background="@drawable/container_barra_card"
+                                android:textAllCaps="false"
+                        />
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                      android:orientation="horizontal" android:layout_gravity="center_vertical"
+                                      android:gravity="end">
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_margin="6dp"
+                                    android:src="@drawable/heart"/>
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_margin="6dp"
+                                    android:src="@drawable/sharebutton"/>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    android:layout_marginHorizontal="16dp">
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical" android:background="@color/white">
+                    <ImageView android:layout_width="match_parent" android:layout_height="160dp"
+                               android:src="@drawable/pipa"
+                               android:scaleType="centerCrop"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:layout_marginTop="12dp"
+                              android:layout_marginStart="16dp"
+                              android:text="@string/praia_de_pipa"
+                              android:textColor="#282828"
+                              android:textSize="20sp"/>
+                    <TextView android:layout_width="353dp" android:layout_height="107dp"
+                              android:layout_marginTop="4dp"
+                              android:layout_marginStart="16dp"
+                              android:text="@string/a_praia_de_pipa_no_rio_grande_do_norte_brasil_famosa_por_suas_belas_praias_fal_sias_coloridas_e_vida_noturna_animada_oferece_atividades_como_avistamento_de_golfinhos_trilhas_e_observa_o_de_tartarugas_um_destino_tur_stico_imperd_vel_para_quem_busca_aventura_e_relaxamento_beira_mar"
+                              android:textColor="#777777"
+                              android:justificationMode="inter_word"
+                              android:textSize="14sp"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                  android:orientation="horizontal" android:layout_marginTop="8dp"
+                                  android:layout_marginHorizontal="16dp"
+                                  android:layout_marginBottom="12dp">
+
+                        <Button android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mais informações"
+                                android:onClick="praia2"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:textSize="15sp"
+                                android:backgroundTint="@color/orange"
+                                android:background="@drawable/container_barra_card"
+                                android:textAllCaps="false"
+                        />
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                      android:orientation="horizontal" android:layout_gravity="center_vertical"
+                                      android:gravity="end">
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_margin="6dp"
+                                    android:src="@drawable/heart"/>
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_margin="6dp"
+                                    android:src="@drawable/sharebutton"/>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    android:layout_marginHorizontal="16dp">
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical" android:background="@color/white">
+                    <ImageView android:layout_width="match_parent" android:layout_height="160dp"
+                               android:src="@drawable/maracajau"
+                               android:scaleType="centerCrop"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:layout_marginTop="12dp"
+                              android:layout_marginStart="16dp"
+                              android:text="@string/maracajau"
+                              android:textColor="#282828"
+                              android:textSize="20sp"/>
+                    <TextView android:layout_width="358dp" android:layout_height="wrap_content"
+                              android:layout_marginTop="4dp"
+                              android:layout_marginStart="16dp"
+                              android:text="@string/maracaja_no_rio_grande_do_norte_brasil_conhecida_como_o_caribe_brasileiro_devido_s_suas_guas_cristalinas_e_recifes_de_corais_ideal_para_mergulho_com_cilindro_ou_snorkel_oferece_oportunidades_para_explorar_a_vida_marinha_al_m_disso_os_passeios_de_buggy_pelas_dunas_e_praias_desertas_s_o_uma_aventura_imperd_vel"
+                              android:textColor="#777777"
+                              android:justificationMode="inter_word"
+                              android:textSize="14sp"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                  android:orientation="horizontal" android:layout_marginTop="8dp"
+                                  android:layout_marginHorizontal="16dp"
+                                  android:layout_marginBottom="12dp">
+
+                        <Button android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mais Informações"
+                                android:onClick="praia3"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:backgroundTint="@color/orange"
+                                android:background="@drawable/container_barra_card"
+                                android:textAllCaps="false"
+                        />
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                      android:orientation="horizontal" android:layout_gravity="center_vertical"
+                                      android:gravity="end">
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_margin="6dp"
+                                    android:src="@drawable/heart"/>
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_margin="6dp"
+                                    android:src="@drawable/sharebutton"/>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    android:layout_marginHorizontal="16dp">
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical" android:background="@color/white">
+                    <ImageView android:layout_width="match_parent" android:layout_height="160dp"
+                               android:src="@drawable/pontanegra"
+                               android:scaleType="centerCrop"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:layout_marginTop="12dp"
+                              android:layout_marginStart="16dp"
+                              android:text="@string/praia_de_ponta_negra"
+                              android:textColor="#282828"
+                              android:textSize="20sp"/>
+                    <TextView android:layout_width="355dp" android:layout_height="115dp"
+                              android:layout_marginTop="4dp"
+                              android:layout_marginStart="16dp"
+                              android:text="@string/ponta_negra_em_natal_rio_grande_do_norte_brasil_famosa_por_sua_ampla_praia_de_areia_branca_e_guas_mornas_o_morro_do_careca_sua_ic_nica_duna_um_destaque_visual_a_rea_oferece_uma_variedade_de_op_es_de_lazer_incluindo_bares_restaurantes_e_atividades_aqu_ticas_tornando_a_um_destino_tur_stico_popular_para_relaxamento_e_divers_o_beira_mar"
+                              android:textColor="#777777"
+                              android:justificationMode="inter_word"
+                              android:textSize="14sp"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                  android:orientation="horizontal" android:layout_marginTop="8dp"
+                                  android:layout_marginHorizontal="16dp"
+                                  android:layout_marginBottom="12dp">
+
+                        <Button android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mais informações"
+                                android:onClick="praia4"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:textSize="15sp"
+                                android:backgroundTint="@color/orange"
+                                android:background="@drawable/container_barra_card"
+                                android:textAllCaps="false"
+                        />
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                      android:orientation="horizontal" android:layout_gravity="center_vertical"
+                                      android:gravity="end">
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_margin="6dp"
+                                    android:src="@drawable/heart"/>
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_margin="6dp"
+                                    android:src="@drawable/sharebutton"/>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    android:layout_marginHorizontal="16dp">
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical" android:background="@color/white">
+                    <ImageView android:layout_width="match_parent" android:layout_height="160dp"
+                               android:src="@drawable/prasagibaia"
+                               android:scaleType="centerCrop"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:layout_marginTop="12dp"
+                              android:layout_marginStart="16dp"
+                              android:text="Praia de Sagi Baia"
+                              android:textColor="#282828"
+                              android:textSize="20dp"/>
+                    <TextView android:layout_width="354dp" android:layout_height="170dp"
+                              android:layout_marginTop="4dp"
+                              android:layout_marginStart="16dp"
+                              android:text="@string/a_ba_a_de_sagi_uma_praia_encantadora_situada_no_munic_pio_de_ba_a_formosa_no_rio_grande_do_norte_brasil_conhecida_por_suas_guas_cristalinas_e_extensas_faixas_de_areia_branca_a_ba_a_de_sagi_um_ref_gio_paradis_aco_para_os_amantes_da_natureza_e_tranquilidade_rodeada_por_fal_sias_coloridas_e_vegeta_o_exuberante_oferece_um_cen_rio_deslumbrante_para_relaxar_praticar_esportes_aqu_ticos_e_apreciar_o_p_r_do_sol_com_uma_atmosfera_serena_e_preservada_a_ba_a_de_sagi_um_destino_perfeito_para_quem_busca_fugir_do_agito_e_se_conectar_com_a_beleza_natural_do_litoral_nordestino"
+                              android:textColor="#777777"
+                              android:justificationMode="inter_word"
+                              android:textSize="14dp"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                  android:orientation="horizontal" android:layout_marginTop="8dp"
+                                  android:layout_marginHorizontal="16dp"
+                                  android:layout_marginBottom="12dp">
+
+                        <Button android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mais informações"
+                                android:onClick="praia5"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                android:textSize="15dp"
+                                android:backgroundTint="@color/orange"
+                                android:background="@drawable/container_barra_card"
+                                android:textAllCaps="false"
+                                android:textColorLink="@color/orange"/>
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                      android:orientation="horizontal" android:layout_gravity="center_vertical"
+                                      android:gravity="end">
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_margin="6dp"
+                                    android:src="@drawable/heart"/>
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_margin="6dp"
+                                    android:src="@drawable/sharebutton"/>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    android:layout_marginHorizontal="16dp">
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:background="@color/white">
+                    <ImageView android:layout_width="match_parent" android:layout_height="160dp"
+                               android:src="@drawable/praiaforte"
+                               android:scaleType="centerCrop"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:layout_marginTop="12dp"
+                              android:layout_marginStart="16dp"
+                              android:text="Praia do Forte"
+                              android:textColor="#282828"
+                              android:textSize="20sp"/>
+                    <TextView android:layout_width="355dp" android:layout_height="132dp"
+                              android:layout_marginTop="4dp"
+                              android:layout_marginStart="16dp"
+                              android:text="@string/a_praia_do_forte_dos_reis_magos_em_natal_rio_grande_do_norte_brasil_conhecida_por_suas_guas_calmas_e_areias_douradas_pr_xima_ao_hist_rico_forte_dos_reis_magos_popular_para_nadar_e_praticar_esportes_aqu_ticos_oferece_uma_boa_infraestrutura_com_quiosques_e_restaurantes_um_local_ideal_para_relaxar_e_explorar_a_hist_ria_local"
+                              android:textColor="#777777"
+                              android:justificationMode="inter_word"
+                              android:textSize="14dp"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                  android:orientation="horizontal" android:layout_marginTop="8dp"
+                                  android:layout_marginHorizontal="16dp"
+                                  android:layout_marginBottom="12dp">
+
+                        <Button android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mais informações"
+                                android:onClick="praia6"
+                                android:textStyle="bold"
+                                android:textSize="15dp"
+                                android:backgroundTint="@color/orange"
+                                android:background="@drawable/container_barra_card"
+                                android:textAllCaps="false"
+                        />
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                      android:orientation="horizontal" android:layout_gravity="center_vertical"
+                                      android:gravity="end">
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_margin="6dp"
+                                    android:src="@drawable/heart"/>
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_margin="6dp"
+                                    android:src="@drawable/sharebutton"/>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <View
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/view"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <View
+            android:layout_width="420dp"
+            android:layout_height="67dp"
+            android:background="@drawable/gradient"
+            android:id="@+id/view3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <View
+            android:layout_width="418dp"
+            android:layout_height="87dp"
+            android:background="@drawable/gradient"
+            android:id="@+id/view4"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+            android:id="@+id/textView"
+            android:text="AventuraRN"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintVertical_bias="0.023"/>
+    <ImageView
+         android:layout_width="56dp"
+         android:layout_height="42dp" app:srcCompat="@drawable/info"
+         android:id="@+id/imageView2" android:layout_marginBottom="16dp" app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintHorizontal_bias="0.782"/>
+ <ImageView
+         android:layout_width="53dp"
+         android:layout_height="45dp"
+         app:srcCompat="@drawable/baseline_settings_24"
+         android:id="@+id/imageView6" android:layout_marginBottom="16dp" app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintHorizontal_bias="0.27"/>
+ <ImageView
+         android:layout_width="64dp"
+         android:layout_height="58dp" app:srcCompat="@drawable/baseline_directions_bus_filled_24"
+         android:id="@+id/imageView7" android:layout_marginBottom="4dp" app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintHorizontal_bias="0.53"/>
+ <ImageView
+         android:layout_width="49dp"
+         android:layout_height="42dp" app:srcCompat="@drawable/leave"
+         android:id="@+id/imageView4" android:layout_marginBottom="16dp" app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintHorizontal_bias="0.955"/>
+ <ImageView
+         android:layout_width="59dp"
+         android:layout_height="49dp"
+         app:srcCompat="@drawable/baseline_person_24"
+         android:id="@+id/imageView5" android:layout_marginBottom="12dp" app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintHorizontal_bias="0.045"/>
+    <ImageView
+            android:layout_width="62dp"
+            android:layout_height="63dp" app:srcCompat="@drawable/barco" android:id="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.131"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.023"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
